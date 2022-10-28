@@ -42,8 +42,6 @@ void CreateUser(){
     
      VerificacionInt(ID);
 
-
-
     Console.WriteLine("Nombre: ");
     string name= Console.ReadLine();
 

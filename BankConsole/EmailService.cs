@@ -13,7 +13,7 @@ public static class EmailService{
         };
         using (var client= new SmtpClient()){
             client.Connect("smtp.gmail.com", 587, false);
-            client.Authenticate("juankid2003@gmail.com", "(contraseña 16 digitos)");
+            client.Authenticate("juankid2003@gmail.com", "(contraseña de 16 caracteres)");
             client.Send(message);
             client.Disconnect(true);
         }
